@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-weight: bolder;
+    font-family: cursive;
+    color: red;
+    text-align: center;
+    border: 1px solid red;
+    
+}
+
+section{
+    border: 1px solid black;
+     width:auto;
+     text-align: center;
+     padding: 10px;
+     position: relative;
+     margin: 10px 0 10px 0;
+     
+    
+
+}
+.sec1{
+    background-color: lightgrey;
+}
+
+.sec2{
+    background-color: lightgreen;
+}
+
+.sec3{
+    background-color: lightblue;
+}
+section p{
+    margin-top: 20px;
+}
+div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.yellow{
+    margin-bottom: 10px;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.red{
+    margin-bottom: 10px;
+    background-color: red;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.green{
+    margin-bottom: 10px;
+    background-color: green;
+    border: 1px solid black;
+    padding: 3px;
+
+    
+}
+
+ 
+
+
+
+
+
+/* Media queries for desktop   min width 992px  views  */
+
+@media screen  and (min-width: 992px){
+    
+    section{
+        border: 1px solid black;
+     width: 30%;
+     float: left;
+     margin: 10px;
+     padding: 10px;
+     margin: 10px 10px 10px 20px;
+     text-align: center;
+     
+    
+    }
+}
+
+@media only screen and ( min-width:768px) and ( max-width: 991px){
+
+    .sec1{
+        border: 1px solid black;
+     width: 45%;
+     float: left;
+     margin: 10px;
+     padding: 10px;
+     margin: 10px 10px 10px 20px;
+     text-align: center;
+    
+}
+
+.sec2{
+    border: 1px solid black;
+    width: 45%;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    margin: 10px 10px 10px 20px;
+    text-align: center;
+}
+
+.sec3{
+    border: 1px solid black;
+     width: 96%;
+     float: left;
+     margin: 10px;
+     padding: 10px;
+     margin: 10px 10px 10px 20px;
+     text-align: center;
+}
+
+@media screen and ( max-width:767px) {
+
+    section{
+    
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+     
+    
+    }
+}
